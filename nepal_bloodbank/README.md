@@ -13,8 +13,6 @@ Nepal Blood Donation is a complete Blood Bank Management System designed for But
 ![Homepage]
 **Find Donors :**
 ![Find Donors]
-**AI Assistant :**
-![AI Assistant]
 **Donation Centres :**
 ![Donation Centres]
 **Donate Now :**
