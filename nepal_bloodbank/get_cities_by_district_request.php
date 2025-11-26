@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 require_once 'db.php';
 
 if (isset($_POST['district'])) {
@@ -9,4 +9,4 @@ if (isset($_POST['district'])) {
     while ($row = $result->fetch_assoc()) {
         echo '<option value="' . htmlspecialchars($row['city']) . '">' . htmlspecialchars($row['city']) . '</option>';
     }
-}
+} -->

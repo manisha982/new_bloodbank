@@ -19,7 +19,6 @@ include "db.php"; // database connection
             <ul class="nav-links">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="find_donors.php">Find Donors</a></li>
-                <li><a href="AI.html"><i class="fas fa-robot"></i> Ask AI</a></li>
                  <li><a href="donation_centres.html">Donation Centres</a></li>
                 <li><a href="#service">Services
                     <ul class="menu">

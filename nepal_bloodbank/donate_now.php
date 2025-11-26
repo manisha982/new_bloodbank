@@ -28,7 +28,6 @@ $districts = $conn->query("SELECT DISTINCT district FROM hospitals ORDER BY dist
         <ul class="nav-links" style="text-align: center;">
             <li><a href="index.php">Home</a></li>
             <li><a href="find_donors.php">Find Donors</a></li>
-            <li><a href="AI.html"><i class="fas fa-robot"></i> Ask AI</a></li>
              <li><a href="donation_centres.html">Donation Centres</a></li>
             <li class="has-submenu">
                 <a href="#service">Services <i class="fas fa-chevron-down"></i></a>
