@@ -1,5 +1,5 @@
 <?php
-require_once '../includes/db.php'; // Database connection
+require_once '../includes/../db.php';
 
 // ADD new record
 if (isset($_POST['add'])) {
@@ -12,7 +12,7 @@ if (isset($_POST['add'])) {
   // $urgency_level = $_POST['urgency_level'];
   // $additional_details = $_POST['additional_details'];
 
-  $sql = "INSERT INTO emergency_request 
+  $sql = "INSERT INTO emergency_requests
           (full_name,
           
           --  phone_number, blood_group, num_bags, district, city, urgency_level, additional_details
@@ -52,14 +52,14 @@ if (isset($_POST['update'])) {
   $urgency_level = $_POST['urgency_level'];
   $additional_details = $_POST['additional_details'];
 
-  $sql = "UPDATE emergency_request 
+  $sql = "UPDATE emergency_requests
           SET full_name='$full_name', phone_number='$phone_number', blood_group='$blood_group',
               num_bags='$num_bags', district='$district', city='$city', 
               urgency_level='$urgency_level', additional_details='$additional_details'
           WHERE id='$id'";
 
   if (mysqli_query($conn, $sql)) {
-    header("Location: index.php?page=emergency_request&updated=1");
+    header("Location: index.php?page=emergency_requests&updated=1");
     exit;
   } else {
     echo "<div class='alert alert-danger'>❌ Update failed: " . mysqli_error($conn) . "</div>";
@@ -67,7 +67,7 @@ if (isset($_POST['update'])) {
 }
 
 // Fetch all data
-$requests = mysqli_query($conn, "SELECT * FROM emergency_request ORDER BY created_at DESC");
+$requests = mysqli_query($conn, "SELECT * FROM emergency_requests ORDER BY created_at DESC");
 ?>
 <!DOCTYPE html>
 <html lang="en">

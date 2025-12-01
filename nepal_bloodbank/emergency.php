@@ -47,7 +47,7 @@
             <!-- Hotline Card -->
             <div class="card" >
                 <h3><i class="fa-solid fa-phone"></i> Emergency Hotline</h3>
-                <p>📞 987896523</p>
+                <p>📞 9800000000</p>
                 <p>Available 24/7 for urgent cases</p>
             </div>
 

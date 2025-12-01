@@ -93,7 +93,6 @@ include "db.php";
                     <ul>
                         <li><a href="donation_centres.html">Donation Centers</a></li>
                         <li><a href="campaigns.php">Blood Drive Events</a></li>
-                        <!-- <li><a href="#">Educational Materials</a></li> -->
                         <li><a href="AI.html">FAQ</a></li>
                     </ul>
                 </div>
@@ -102,7 +101,6 @@ include "db.php";
                     <ul>
                         <li><a href="index.html #contact">Contact Us</a></li>
                         <li><a href="emergency.php">Emergency Services</a></li>
-                        <!-- <li><a href="#">Volunteer</a></li> -->
                         <li><a href="donate_now.html">Donate</a></li>
                     </ul>
                 </div>

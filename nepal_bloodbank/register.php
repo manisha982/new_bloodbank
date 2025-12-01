@@ -351,7 +351,6 @@ if (isset($_POST['register'])) {
       <ul class="nav-links">
         <li><a href="index.php">Home</a></li>
         <li><a href="find_donors.php">Find Donors</a></li>
-        <li><a href="AI.html">Ask AI</a></li>
         <li><a href="donation_centres.html">Donation Centres</a></li>
         <li class="has-submenu">
           <a href="#">Services</a>
@@ -406,10 +405,7 @@ if (isset($_POST['register'])) {
         <label for="locations">Preferred Donation Locations</label>
         <select id="locations" name="locations[]" multiple required>
           <option value="Butwal">Butwal</option>
-          <option value="Lazimpat">Lazimpat</option>
-          <option value="Baneshowr">Baneshowr</option>
-          <option value="Prithivi Chowk">Prithivi Chowk</option>
-          <option value="Palpa">Palpa</option>
+          <option value="kathmandu">kathmandu</option>
         </select>
         <small>Hold CTRL (or Command on Mac) to select multiple</small>
       </div>

@@ -2,6 +2,8 @@
 require_once 'db.php'; // Make sure this connects correctly
 
 $districts = $conn->query("SELECT DISTINCT district FROM hospitals ORDER BY district ASC");
+$cities = $conn->query("SELECT DISTINCT city FROM hospitals ORDER BY city ASC");
+
 ?>
 
 <!DOCTYPE html>
@@ -161,10 +163,14 @@ $districts = $conn->query("SELECT DISTINCT district FROM hospitals ORDER BY dist
                     </div>
                     
                     <!-- City -->
+                     <!-- id="city" -->
                     <div class="form-group">
                     <label for="city">City *</label>
-                    <select id="city" name="area" class="form-control" required>
+                    <select  name="area" class="form-control" required>
                         <option value="">Select City</option>
+                          <?php while ($row = $cities->fetch_assoc()): ?>
+                                <option value="<?= htmlspecialchars($row['city']) ?>"><?= htmlspecialchars($row['city']) ?></option>
+                        <?php endwhile; ?>
                     </select>
                     </div>
                     

@@ -314,7 +314,6 @@
                         <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
                         <li><a href="#why-donate"><i class="fas fa-trailer"></i> Why Donate</a></li>
                         <li><a href="find_donors.php"></i> Find Donors</a></li>
-                        <li><a href="AI.html"></i> AI Assistant</a></li>
                         <li><a href="#procedure"></i> Process</a></li>
                     </ul>
                 </div>
@@ -323,7 +322,6 @@
                     <ul>
                         <li><a href="donation_centres.html">Donation Centers</a></li>
                         <li><a href="campaigns.php">Blood Drive Events</a></li>
-                        <li><a href="AI.html">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">

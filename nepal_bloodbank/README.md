@@ -45,7 +45,6 @@ Nepal Blood Donation is a complete Blood Bank Management System designed for But
 - **Blood Compatibility Checker:** See who can donate to whom.
 - **Upcoming Campaigns:** View and join blood drives.
 - **User Profile:** User can create account.
-- **AI Assistant:** Chatbot answers about donation, eligibility, technical help.
 - **Contact & Feedback:** Get support and send suggestions.
 - **Emergency Hotline:** Immediate help for critical cases.
 
@@ -88,7 +87,7 @@ Nepal Blood Donation is a complete Blood Bank Management System designed for But
 **Requirements:**
 - PHP 7.x or 8.x
 - MySQL Server
-- Localhost environment (XAMPP/laragon)
+- Localhost environment (XAMPP)
 
 **Setup:**
 1. Clone or download this repository.

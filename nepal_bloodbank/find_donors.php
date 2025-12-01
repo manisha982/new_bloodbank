@@ -59,10 +59,6 @@ include "db.php"; // database connection
         <select name="district">
           <option value="">-- Select --</option>
           <option value="Kathmandu">Kathmandu</option>
-          <option value="Lalitpur">Lalitpur</option>
-          <option value="Bhaktapur">Bhaktapur</option>
-          <option value="Pokhara">Pokhara</option>
-          <option value="Palpa">Palpa</option>
           <option value="Butwal">Butwal</option>
           <!-- Add more if needed -->
         </select>

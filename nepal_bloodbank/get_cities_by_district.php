@@ -10,3 +10,6 @@ if (isset($_POST['district'])) {
         echo '<option value="' . htmlspecialchars($row['city']) . '">' . htmlspecialchars($row['city']) . '</option>';
     }
 }
+
+
+

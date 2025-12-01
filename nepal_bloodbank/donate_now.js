@@ -10,12 +10,6 @@
                 'Teaching Hospital',
                 'Bir Hospital',
             ],
-            'Pokhara': [
-                'Nepal Manipal Teaching Hospital',
-                'Fewa City Hospital',
-                'Central Hospital Ltd',
-                'Lake City Hospital and Critical Care Pvt. Ltd.',
-            ],
         };
         
         // Toggle last donation field

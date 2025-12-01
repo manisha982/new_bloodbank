@@ -66,7 +66,7 @@ $recent_requests = $conn->query("SELECT id, fullname, blood_group, area AS hospi
   <div class="card shadow-sm mt-5">
     <div class="card-header bg-danger text-white fw-semibold d-flex justify-content-between align-items-center">
       <span><i class="bi bi-clock-history"></i> Recent Blood Requests</span>
-      <a href="requests.php" class="btn btn-light btn-sm">View All</a>
+      <a href="index.php?page=patient_request" class="btn btn-light btn-sm">View All</a>
     </div>
     <div class="card-body p-0">
       <div class="table-responsive">
